@@ -72,10 +72,10 @@ html{
     background-color: lightcoral;
 }
 
+
 @media all and (max-width: 767px) {
     .reloj {
       width: 50%;
     }
 
-    
   }
