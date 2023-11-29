@@ -6,4 +6,68 @@ body{
 
 main{
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #FAACA8;
+background-image: linear-gradient(0deg, #FAACA8 20%, #eaf3d6 74%);
+
+}
+
+html{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reloj{
+    font-size: 30px;
+    color: chocolate;
+}
+
+.numero{
+    display: inline-block;
+    width: 150px;
+    font-size: 130px;
+    text-align: center;
+    border: none;
+    background: lemonchiffon ;
+
+
+}
+
+.botones button{
+    margin: 0 8px;
+    padding: 40px;
+    border: none;
+    border-radius: 60px ;
+
+}
+
+#iniciar{
+    background-image: url('../img/play_circle_FILL0_wght400_GRAD0_opsz24.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#pausa{
+    background-image: url('../img/pause_circle_FILL0_wght400_GRAD0_opsz24.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#iniciar:active{
+     background-color: darkseagreen;
+}
+
+#pausa:active{
+    background-color: lightcoral;
 }
