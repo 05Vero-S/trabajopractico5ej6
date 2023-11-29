@@ -21,7 +21,21 @@
             </div>
           </nav>
     </header>
-    <main></main>
+    <main>
+        <section class="container">
+            <div class="reloj">
+                <input class="numero" type="text" maxlength="2" value="00"><span>hs</span>
+                <input class="numero" type="text" maxlength="2" value="00"><span>min</span>
+                <input class="numero" type="text" maxlength="2" value="00"><span>seg</span>
+
+            </div> 
+            <div class="botones">
+                <button id="iniciar" onclick="iniciarTemporizador()"></button>
+                <button id="pausa" onclick="pausarTemporizador()"></button>
+            </div>
+
+        </section>
+    </main>
     <footer class="bg-dark text-light py-3 text-center">
         <p>&copy; Todos los derechos reservados</p>
     </footer>
